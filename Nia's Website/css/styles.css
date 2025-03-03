@@ -1,22 +1,26 @@
+
+
 .header-main {
     margin: 0px;
     background-color: black;
     color: #d9d9d9;
-    padding: 10px;
     display: flex;
     justify-content: space-between;
-    position: sticky;
     top: 0;
-    font-size: 1.5rem;
     z-index: 1;
 }
 
 .header-main .title {
+    font-size: 1.5rem;
     flex: 1 auto;
+    padding: 10px;
 }
 
 .header-main .menu {
     text-align: right;
+    font-size: 1.2rem;
+    margin-top: 0.6em;
+    margin-right: 0.6em;
     flex: 1 auto;
     
 }
