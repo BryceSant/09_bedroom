@@ -146,17 +146,17 @@ a:link {
 
 .about-body .email {
     white-space: nowrap;
-    margin-left: 1.5em;
+    margin-left: 1.3em;
     margin-right: 1.5em;
     margin-top: 1.5em;
-    font-size: 3em 1em;
+    font-size: 3em;
 }
 
 .about-body .general-info {
     white-space: nowrap;
     margin-left: 1.5em;
     margin-right: 1.5em;
-    margin-top: 1.5em;
+    margin-top: 1.2em;
     font-size: 2.5em;
 }
 
@@ -164,7 +164,7 @@ a:link {
     white-space: nowrap;
     margin-left: 1.5em;
     margin-right: 1.5em;
-    font-size: 2.5em;
+    font-size: 2.2em;
 }
 
 .about-body .selfie {
