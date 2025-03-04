@@ -134,7 +134,7 @@ a:link {
 
 .about-body .info {
     background-image: linear-gradient(145deg, #ffb8e5, #ebe6e9);
-    flex: 5;
+    flex: 7;
     color: white;
     display: flex;
     flex-direction: column;
@@ -167,16 +167,36 @@ a:link {
     font-size: 2.2em;
 }
 
+.about-body .selfie-nines {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.about-body .box-nines {
+    flex: 4;
+    font-size: 0.5vh;
+    font-size: 1vw;
+    white-space: nowrap;
+    margin-left: 1.5em;
+    margin-top: -0.4em;
+
+}
+
+
+
 .about-body .selfie {
+    flex: 3;
     background-image: url(../images/about-selfie.png);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     border-style: solid;
-    flex: 2;
     border-width: 1.5em 0em 1.5em 1.5em;
     border-color: black;
     background-color: black;
+
 }
 
 .about-body ul {
