@@ -134,13 +134,13 @@ a:link {
 
 .about-body .info {
     background-image: linear-gradient(145deg, #ffb8e5, #ebe6e9);
-    flex: 7;
+    flex: 5;
     color: white;
     display: flex;
     flex-direction: column;
     border-color: black;
     border-style: solid;
-    border-width: 2.7em 0em 2.7em 1.3em;
+    border-width: 1em 0em 2.7em 1.3em;
 }
 
 .about-body .email {
@@ -185,8 +185,6 @@ a:link {
 
 }
 
-
-
 .about-body .selfie {
     flex: 3;
     background-image: url(../images/about-selfie.png);
@@ -194,7 +192,7 @@ a:link {
     background-repeat: no-repeat;
     background-size: cover;
     border-style: solid;
-    border-width: 1.5em 0em 1.5em 1.5em;
+    border-width: 0em 0em 1.5em 1.5em;
     border-color: black;
     background-color: black;
 
@@ -221,4 +219,5 @@ a:link {
     background-color: black;
     font-size: 1.5vh;
     margin: 1em;
+    margin-top: -1em;
 }
