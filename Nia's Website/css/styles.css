@@ -1,42 +1,74 @@
-.header-main {
+@font-face {
+    font-family: "Rush Blade";
+    src: url(../fonts/RushbladeDemo-AR8EA.ttf);
+    src: url(../fonts/RushbladeDemo-AR8EA.ttf) format(truetype);
+}
+
+body {
     margin: 0px;
+    font-family: "Rush Blade";
+}
+
+.overall-page {
     display: flex;
-    justify-content: space-between;
-    top: 0;
-    z-index: 1;
+    flex-direction: column;
+    height: 100vh;
 }
 
-.header-main .title {
-    
-    font-size: 1.5rem;
-    flex: 1 auto;
-    padding: 2em;
-    margin-left: -0.4em;
-}
-
-.header-main .menu {
-    text-align: right;
-    font-size: 1.2rem;
-    margin-top: 2.7em;
-    margin-right: 2em; 
-    display: flex;
-    gap: 1em;
-    
-}
-
-a:link {
-    color: black;
+a:link { 
     text-decoration: none;
 }
 
+/* headers */
+.header {
+    margin: 0px;
+    display: flex;
+    top: 0;
+    flex: 2;
+    z-index: 1;
+    background-color: black;
+    color: #d9d9d9;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .title {
+    font-size: 1.5rem;
+    flex: 3;
+    padding: 2em;
+    margin-left: -0.4em; */
+
+    
+}
+
+.header .menu {
+    text-align: left;
+    font-size: 1.2rem;
+    padding: 2em;
+    flex: 1;
+    white-space: nowrap;
+    display: flex;
+    gap: 1em;
+}
+
+.header a:link {
+    color: #d9d9d9;
+}
+
+.header a:hover {
+    color: white;
+}
+
+/* body */
 .body {
-    position: relative;
+    flex: 7;
     background-image: url(../images/menu_background_image.png);
-    background-position: 50% 50%; 
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: auto;
+    z-index: -1;
+    display: flex;
+    align-items: flex-start;
 }
 
 .body .menu-text {
@@ -49,30 +81,47 @@ a:link {
 .body .menu-text h3 {
     font-size: 1.4rem;
     margin-top: -0.4em;
-
 }
-
 
 
 .body a:link {
     color: white;
 } 
 
-a:hover {
+.body a:hover {
     color: grey;
 }
+
+
+/* body */
 
 .footer {
     background-color: black;
     color: #d9d9d9;
-    padding: 10px;
+    flex: 1;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 0.5rem;
 }
 
-.footer .copyright{
-    color: #d9d9d9;
-    flex: 1 auto;
-    text-align: left;
-    font-size: 0.8rem;
+.footer .menu {
+    font-size: 1rem;
     padding: 0.8em;
+    margin-bottom: -0.8em;
 }
+
+.footer .copyright {
+    padding: 0.8em;
+    font-size: 1rem;
+}
+
+.footer a:link {
+    color: #d9d9d9;
+} 
+
+.footer a:hover {
+    color: white;
+}
+
