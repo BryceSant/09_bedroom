@@ -91,7 +91,7 @@ a:link {
 }
 
 
-/* body */
+/* footer */
 
 .footer {
     background-color: black;
@@ -123,3 +123,79 @@ a:link {
     color: white;
 }
 
+
+/* about section specific */
+
+.about-body {
+    flex: 7;
+    display: flex;
+}
+
+.about-body .info {
+    background-image: linear-gradient(145deg, #ffb8e5, #ebe6e9);
+    flex: 5;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+    border-style: solid;
+    border-width: 2.7em 1.3em;
+    margin-left: -4em;
+}
+
+.about-body .email {
+    white-space: nowrap;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 1.5em;
+    font-size: 3em 1em;
+}
+
+.about-body .general-info {
+    white-space: nowrap;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 1.5em;
+    font-size: 2.5em;
+}
+
+.about-body .fav-inspo {
+    white-space: nowrap;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    font-size: 2.5em;
+}
+
+.about-body .selfie {
+    background-image: url(../images/about-selfie.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+    flex: 2;
+    border-width: 1.5em 0em 1.5em 1.5em;
+    border-color: black;
+    background-color: black;
+}
+
+.about-body ul {
+    margin-top: -1em;
+}
+
+.about-body li:nth-child(2) {
+    margin-left: 3em;
+}
+
+.about-body li:nth-child(3) {
+    margin-left: 6em;
+}
+
+.about-body li:nth-child(4) {
+    margin-left: 9em;
+}
+
+.nines {
+    color: white;
+    background-color: black;
+    font-size: 1.5vh;
+}
