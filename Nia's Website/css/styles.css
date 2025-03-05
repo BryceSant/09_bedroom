@@ -148,6 +148,8 @@ a:link {
     /*border-width: 2.7em 0em 2.7em 1.3em; */
     border-width: 0.3em;
     margin-left: 0.8em;
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 
 .about-body .email {
