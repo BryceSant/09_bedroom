@@ -25,7 +25,7 @@ a:link {
     margin: 0px;
     display: flex;
     top: 0;
-    flex: 2;
+    flex: 1;
     z-index: 1;
     background-color: black;
     color: #d9d9d9;
@@ -35,7 +35,7 @@ a:link {
 
 .header .title {
     font-size: 2.5rem;
-    flex: 3;
+    flex: 4;
     padding: 2em;
     margin-left: -0.4em;
 }
@@ -124,17 +124,133 @@ a:link {
     color: white;
 }
 
+.about-body {
+    flex: 5;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 1em;
+    width: 100vw;
+}
+
+.about-body .selfie-nines {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*background-color: aqua; */
+    gap: 0.5rem;
+}
+
+.about-body .selfie-nines .selfie {
+    flex: 5 auto;
+    background-image: url(../images/about-selfie.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.about-body .selfie-nines .boxed-nines {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+.about-body .info{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/about-background.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+
+.about-body .info .email {
+    flex: 1;
+    margin-left: 1.3em;
+    margin-right: 1.5em;
+    margin-top: 1.5em;
+    font-size: 3rem;
+}
+
+.about-body .info .general-info {
+    flex: 1;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 1.2em;
+    font-size: 2.5rem;
+}
+
+.about-body .info .fav-inspo {
+    flex: 2;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    font-size: 2.2rem;
+}
+
+.about-body .nines{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /*background-color: green; */
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+.about-body ul {
+    margin-top: -1em;
+}
+
+.about-body li:nth-child(2) {
+    margin-left: 3em;
+}
+
+.about-body li:nth-child(3) {
+    margin-left: 6em;
+}
+
+.about-body li:nth-child(4) {
+    margin-left: 9em;
+}
+
+
+/*
+.about-body .selfie-nines .selfie {
+    background-image: url(../images/about-selfie.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 3;
+}
+
+.about-body .selfie-nines .boxed-nines {
+    background-color: red;
+    flex: 2;
+} */
+
 
 /* about section specific */
 
+/*
 .about-body {
     flex: 7;
     display: flex;
 }
 
 .about-body .info {
-    /*background-image: linear-gradient(145deg, #ffb8e5, #ebe6e9); */
-
     background-image: url(../images/about-background.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -145,7 +261,6 @@ a:link {
     flex-direction: column;
     border-color: white;
     border-style: solid;
-    /*border-width: 2.7em 0em 2.7em 1.3em; */
     border-width: 0.3em;
     margin-left: 0.8em;
     margin-top: 1em;
@@ -153,6 +268,7 @@ a:link {
 }
 
 .about-body .email {
+    flex: 1;
     white-space: nowrap;
     margin-left: 1.3em;
     margin-right: 1.5em;
@@ -161,6 +277,7 @@ a:link {
 }
 
 .about-body .general-info {
+    flex: 1;
     white-space: nowrap;
     margin-left: 1.5em;
     margin-right: 1.5em;
@@ -169,6 +286,7 @@ a:link {
 }
 
 .about-body .fav-inspo {
+    flex: 2;
     white-space: nowrap;
     margin-left: 1.5em;
     margin-right: 1.5em;
@@ -204,7 +322,6 @@ a:link {
     background-repeat: no-repeat;
     background-size: cover;
     border-style: solid;
-    /* border-width: 1.5em 0em 1.5em 1.5em;*/
     border-width: 0.3em;
     border-color: white;
     background-color: black;
@@ -213,25 +330,6 @@ a:link {
 
 }
 
-.about-body ul {
-    margin-top: -1em;
-}
 
-.about-body li:nth-child(2) {
-    margin-left: 3em;
-}
 
-.about-body li:nth-child(3) {
-    margin-left: 6em;
-}
-
-.about-body li:nth-child(4) {
-    margin-left: 9em;
-}
-
-.nines {
-    color: #d9d9d9;
-    background-color: black;
-    font-size: 1.5vh;
-    margin: 1em;
-}
+*/
