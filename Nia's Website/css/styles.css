@@ -189,10 +189,11 @@ a:link {
     border-color: black;
     border-width: 0em 0em 0em 0em 1.5em;
     margin-left: 2.3em;
+    display: flex; 
+    flex-direction: column;
+    flex: 1;
 
 }
-
-
 
 .about-body .selfie {
     flex: 3;
