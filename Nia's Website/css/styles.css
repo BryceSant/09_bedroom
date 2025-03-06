@@ -124,27 +124,33 @@ a:link {
     color: white;
 }
 
+
+/* about */
+
 .about-body {
     flex: 5;
     color: white;
     display: flex;
-    justify-content: space-around;
-    align-items: stretch;
+    justify-content: center;
+    /*align-items: stretch; */
     gap: 1em;
-    width: 100vw;
+    width: 98vw;
 }
 
 .about-body .selfie-nines {
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    align-items: stretch;
     /*background-color: aqua; */
     gap: 0.5rem;
+    width: 100%;
+    height: 100%;
 }
 
 .about-body .selfie-nines .selfie {
-    flex: 5 auto;
+    flex: 0 auto;
     background-image: url(../images/about-selfie.png);
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -201,7 +207,7 @@ a:link {
 }
 
 .about-body .nines{
-    flex-grow: 1;
+    flex-grow: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
