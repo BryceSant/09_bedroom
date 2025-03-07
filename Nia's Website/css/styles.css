@@ -14,6 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    justify-content: center;
 }
 
 a:link { 
@@ -127,6 +128,14 @@ a:link {
 
 /* about */
 
+.name-email-topnines {
+    flex: 1 auto;
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+}
+
 .about-body {
     flex: 5;
     color: white;
@@ -197,21 +206,22 @@ a:link {
     border-color: white;
 }
 
-
+/*
 .about-body .info .email {
     flex: 1;
     margin-left: 1.3em;
     margin-right: 1.5em;
     margin-top: 1.5em;
     font-size: 3rem;
-}
+} */
 
 .about-body .info .general-info {
     flex: 1;
     margin-left: 1.5em;
     margin-right: 1.5em;
-    margin-top: 1.2em;
+    margin-top: 1.3em;
     font-size: 2.5rem;
+    margin-bottom: -2em;
 }
 
 .about-body .info .fav-inspo {
@@ -219,6 +229,7 @@ a:link {
     margin-left: 1.5em;
     margin-right: 1.5em;
     font-size: 2.2rem;
+    margin-bottom: -1em;
 }
 
 .about-body .nines{
