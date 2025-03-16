@@ -21,6 +21,10 @@ a:link {
     text-decoration: none;
 }
 
+a:visited {
+    color: white;
+}
+
 /* headers */
 .header {
     margin: 0px;
